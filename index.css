@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Scada', sans-serif;
+}
+
+.app {
+  background-color: rgb(255, 255, 255) ; 
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+
+.app.warm {
+  background-color: #fff;
+
+main {
+  min-height: 100vh;
+ 
+  padding: 10px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+}
+
+.search-box .search-bar {
+  width: 334px;
+  height: 34px;
+  padding: 8px;
+  border: 1px solid #060606;
+  border-radius: 25px;
+  position: absolute;
+  top: 57.98px;
+  left: 553px;
+  
+}
+
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255);
+}
+
+.location-box .location {
+  color: #040404;
+  font-weight: normal;
+   font-size: 20px;
+  
+  position: absolute;
+  Top: 150px;
+  Left: 690px;
+  
+
+  
+}
+
+
+.location-box .date {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 19px;
+  font-weight: normal;
+  position:absolute;
+  Top: 280px;
+  Left: 660px;
+  
+ 
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  
+  color: #000000;
+  font-size: 40px;
+  font-weight: bold;
+  position:absolute;
+  Top: 200px;
+  Left: 690px;
+  
+
+}
+
+.weather-box .weather {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: normal;
+  position:absolute;
+  Top: 250px;
+  Left: 690px;
+  text-align: center;
+  
+}
+.bottom {
+  width: 337px;
+  height: 60px;
+  padding: 8px;
+  border: 1px solid #060606;
+  border-radius: 20px;
+  position: absolute;
+  top: 343px;
+  left: 553px;
+  font-size: 15px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}

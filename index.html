@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" />
+  <link rel="apple-touch-icon" href="./logo192.png" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="./manifest.json" />
+  <title>Weather</title>
+</head>
+<!-- website for the weather app: https://weather-app-8cd06.web.app/ -->
+
+<body>
+  <script src="./storeCities.js" type="module"></script>
+  <script src="./app.js" type="module"></script>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div class="app">
+    <main>
+      <div class="search-box">
+        <input type="text" placeholder="Search..." id="input" class="search-bar">
+      </div>
+      <div>
+        <div class="location-box">
+          <div class="location">
+            <h2 id="location"> City </h2>
+          </div>
+          <div class="date">
+            <h4 id="date"> Date</h4>
+          </div>
+        </div>
+        <div class="weather-box">
+          <div class="temp"> 
+            <p id="temp">56°F</p>
+          </div>
+          <div class="weather">
+          </div>
+        </div>
+        <div class="bottom">
+          <div class='airquality'>
+            <p class='bold'> Air Quality</p>
+            <p id="airquality">Air Quality</p>
+          </div>
+          <div class="feels">
+            <p>Feels Like</p>
+            <p id="feels"> </p>
+          </div>
+          <div class="humidity">
+            <p>Humidity</p>
+            <p id="humidity"></p>
+          </div>
+          <div class="wind">
+            <p>Wind Speed</p>
+            <p id="wind"></p>
+          </div>
+        
+        </div>
+      </div>
+
+
+      <div id="newspaper" class="news">
+        <a id="real-url" href="">
+          <h2 class="news-header"> Top News</h2>
+          <h3 id="title" class="news-title"> Title</h3>
+          <h5 id="source" class="news-source">Source</h5>
+        </a>
+        <button id="next-news"> Next </button>
+      </div>
+
+      
+    </main>
+  </div>
+  
+</body>
+
+</html>
